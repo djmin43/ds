@@ -18,3 +18,15 @@ export const Secondary: ComponentStory<typeof BaseButton> = () => (
     secondary
   </BaseButton>
 );
+
+export const Success: ComponentStory<typeof BaseButton> = () => (
+  <BaseButton buttonStyle="success" onClick={() => console.log("sucess")}>
+    secondary
+  </BaseButton>
+);
+
+export const Error: ComponentStory<typeof BaseButton> = () => (
+  <BaseButton buttonStyle="error" onClick={() => console.log("error")}>
+    secondary
+  </BaseButton>
+);
