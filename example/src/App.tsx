@@ -1,9 +1,12 @@
-import React from "react";
-import logo from "./logo.svg";
+import SayHello from "jaymin-design-system";
 import "./App.css";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <SayHello name="austin-lee" />
+    </div>
+  );
 }
 
 export default App;
