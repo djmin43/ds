@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/djmin43/ds.git",
   "author": "jay <dj.min43@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  }
 }
