@@ -1,0 +1,9 @@
+{
+  "name": "jaymin-design-system",
+  "version": "1.0.0",
+  "description": "no description yet",
+  "main": "index.js",
+  "repository": "https://github.com/djmin43/ds.git",
+  "author": "jay <dj.min43@gmail.com>",
+  "license": "MIT"
+}
