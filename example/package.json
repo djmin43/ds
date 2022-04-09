@@ -14,7 +14,8 @@
     "react-dom": "^18.0.0",
     "react-scripts": "5.0.0",
     "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
+    "web-vitals": "^2.1.0",
+    "jaymin-design-system": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",
