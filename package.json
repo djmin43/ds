@@ -7,6 +7,7 @@
   "author": "jay <dj.min43@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "build:cjs": "tsc --module commonjs --outdir lib/cjs"
   }
 }
