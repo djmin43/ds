@@ -1,5 +1,4 @@
 import React from "react";
-import styled from '@emotion/styled'
 
 export interface ButtonProps {
   label: string;
@@ -11,20 +10,14 @@ export const PrimaryButton = ({
   label,
 }: ButtonProps) => {
   return (
-    <StyledPrimaryButton
+    <button 
+      style={{ backgroundColor: 'red'}}
       onClick={onClick}
     >
       asdf
       {label}
-    </StyledPrimaryButton>
+    </button>
   );
 };
 
-
-export const StyledPrimaryButton = styled.button`
-  width: '210px';
-  height: '68px';
-  background-color: '#007AFF';
-  color: '#FFFFFF';
-`
 
