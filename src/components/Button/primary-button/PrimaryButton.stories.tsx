@@ -17,4 +17,4 @@ export const Primary = Template.bind({});
 Primary.args = { label: "Primary 😃"};
 
 export const Secondary = Template.bind({});
-Secondary.args = { ...Primary.args, label: "Secondary 😇" };
+Secondary.args = { ...Primary.args, label: "하모니 😇" };
