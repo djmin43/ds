@@ -3,6 +3,8 @@ module.exports = {
     "../stories/**/*.stories.mdx",
     "../stories/**/*.stories.@(js|jsx|ts|tsx)",
     "../src/**/*.stories.tsx",
+    "../src/**/**/*.stories.tsx",
+    "../src/**/**/**/*.stories.tsx",
   ],
   addons: [
     "@storybook/addon-links",
@@ -10,4 +12,5 @@ module.exports = {
     "@storybook/addon-interactions",
   ],
   framework: "@storybook/react",
+
 };

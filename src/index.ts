@@ -1,3 +1,3 @@
-import { Button } from "./components/Button";
+export { BaseButton, PrimaryButton } from "./components/button";
 
-export { Button };
+

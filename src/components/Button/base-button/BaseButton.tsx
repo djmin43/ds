@@ -2,10 +2,10 @@ import React from "react";
 
 export interface ButtonProps {
   label: string;
-  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  onClick: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
 
-export const Button = ({
+export const BaseButton = ({
   onClick,
   label,
 }: ButtonProps) => {
